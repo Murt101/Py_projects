@@ -48,7 +48,7 @@ def register_file_association(
     except Exception as e:
         pass
 
-#register_file_association()
+register_file_association()
 
 if len(sys.argv) > 1:
     file_path = sys.argv[1]
